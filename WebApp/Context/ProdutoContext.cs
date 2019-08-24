@@ -9,7 +9,7 @@ namespace WebApp.Context
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySQL("Server=localhost;Port=3306;Database=faculdade;Uid=root;Pwd=leoq15/*;");
+            optionsBuilder.UseMySQL("Server=mysql;Port=3306;Database=faculdade;Uid=root;Pwd=leoq15/*;");
             base.OnConfiguring(optionsBuilder);
         }
 
